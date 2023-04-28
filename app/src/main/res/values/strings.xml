@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TheSocialNetwork</string>
+    <string name="feat_login_welcome">Welcome to TheSocialNetwork</string>
+    <string name="feat_login_subtitle">please Sing-in to continue</string>
+
+    <string name="feat_search_friends_title">search a friend</string>
+</resources>

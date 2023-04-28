@@ -1,0 +1,4 @@
+package searchFriends
+
+class searchFriendsActivity {
+}

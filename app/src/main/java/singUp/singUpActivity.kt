@@ -1,0 +1,4 @@
+package singUp
+
+class singUpActivity {
+}
