@@ -10,7 +10,6 @@
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/space_large"
         android:text="@string/feat_search_friends_title"
-        android:textColor="@color/purple_700"
         style="@style/TheSocialNetwork.TextStyle.Title"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
