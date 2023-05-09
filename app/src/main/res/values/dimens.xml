@@ -3,5 +3,5 @@
     <dimen name ="space_small">8dp</dimen>
     <dimen name ="space_large">24dp</dimen>
     <dimen name ="text_size_big">32sp</dimen>
-    <dimen name ="text_size_small">18sp</dimen>
+    <dimen name ="text_size_small">12sp</dimen>
 </resources>
