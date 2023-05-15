@@ -6,7 +6,17 @@
     <style name="TheSocialNetwork.TextStyle">
 
         <item name="android:textSize">@dimen/text_size_small</item>
-        <item name="android:textColor">#1EDAC5</item>
+        <item name="android:textColor">@color/textStyle</item>
+        <item name="android:textStyle"> normal</item>
+
+    </style>
+
+    <style name="TheSocialNetwork.TextStyle.primary">
+
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textColor">@color/textTitlePrimary</item>
+        <item name="android:textStyle"> normal</item>
+
     </style>
 
     <style name="TheSocialNetwork.TextStyle.Title">
