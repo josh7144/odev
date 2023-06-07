@@ -1,33 +1,35 @@
 package singUp
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
-import android.text.Spannable
+import androidx.appcompat.app.AppCompatActivity
 import android.text.SpannableString
 import android.text.Spanned
 import android.text.style.ForegroundColorSpan
-import android.widget.Button
+import android.graphics.Color
+
 import android.widget.TextView
 import com.example.thesocialnetwork.R
-import examples.Color
 
-class singUpActivity : AppCompatActivity() {
+
+class SingUpActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sing_up)
 //creating spannable string from normal string
-        val mText = "terminos y condiciones:RED color ,GREEN color ,and BLUE color"
-        val mSpannableString = SpannableString(mText)
+        val mText = findViewById<TextView>(R.id.terms_and_privacy)
+        val mText1 = " vienvenido a thesocialnetwork. aceptas nuestro terminos y condiciones?"
+        val mSpannableString = SpannableString(mText1)
 
 // color styles to apply on substring
-        val mRed = ForegroundColorSpan(Color.RED)
-// apliying color styles to substrings
+        val mRed = ForegroundColorSpan(Color.BLUE)
 
-        mSpannableString.setSpan(mRed,29,32,Spanned.SPAN_INCLUSIVE_EXCLUSIVE)
+// appliying color styles to substrings
 
-//seting text to the textview
+        mSpannableString.setSpan(mRed,42,63,Spanned.SPAN_INCLUSIVE_EXCLUSIVE)
 
-        terms_and_privacy.text=mSpannableString
+//setting text to the textview
+
+        mText.text=mSpannableString
           }
 
 

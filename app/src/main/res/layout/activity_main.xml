@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,10 +7,21 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/activityOne"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_margin="24dp"
-        android:text="hola mundo" />
+        android:text="login" />
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:id="@+id/activityTwo"
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:text="sinUp"
+        app:layout_constraintTop_toTopOf="@id/activityOne"
+        tools:layout_editor_absoluteX="24dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
