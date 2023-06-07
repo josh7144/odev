@@ -25,7 +25,7 @@ class SingUpActivity : AppCompatActivity() {
 
 // appliying color styles to substrings
 
-        mSpannableString.setSpan(mRed,42,63,Spanned.SPAN_INCLUSIVE_EXCLUSIVE)
+        mSpannableString.setSpan(mRed,49,73,Spanned.SPAN_INCLUSIVE_EXCLUSIVE)
 
 //setting text to the textview
 
