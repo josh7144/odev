@@ -18,6 +18,7 @@ enum class Color{
     Purple,
     Black,
     Tornasol,
+    RED,
 }
 
 open class ElectronicDevice(//constrcutor
