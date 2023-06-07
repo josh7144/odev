@@ -1,4 +1,0 @@
-package singUp
-
-class singUpActivity {
-}
