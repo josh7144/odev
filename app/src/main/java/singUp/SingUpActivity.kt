@@ -21,11 +21,11 @@ class SingUpActivity : AppCompatActivity() {
         val mSpannableString = SpannableString(mText1)
 
 // color styles to apply on substring
-        val mRed = ForegroundColorSpan(Color.BLUE)
+        val mBlue = ForegroundColorSpan(Color.BLUE)
 
 // appliying color styles to substrings
 
-        mSpannableString.setSpan(mRed,49,73,Spanned.SPAN_INCLUSIVE_EXCLUSIVE)
+        mSpannableString.setSpan(mBlue,49,73,Spanned.SPAN_INCLUSIVE_EXCLUSIVE)
 
 //setting text to the textview
 
