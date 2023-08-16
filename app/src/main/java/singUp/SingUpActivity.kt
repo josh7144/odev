@@ -16,20 +16,22 @@ class SingUpActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sing_up)
 //creating spannable string from normal string
-        val mText = findViewById<TextView>(R.id.terms_and_privacy)
-        //val mText1 = " bienvenido a thesocialnetwork. aceptas nuestro terminos y condiciones?"
-       // val mSpannableString = SpannableString(mText1)
+        var mText = findViewById<TextView>(R.id.terms_and_privacy)
+        //mText.text="hola probando"
+
+        var mText1 = "Welcome to Thesocialnetwork.you accepts our terms and conditions?"
+        var mSpannableString = SpannableString(mText1)
 
 // color styles to apply on substring
-       //  val mBlue = ForegroundColorSpan(Color.BLUE)
+        var mBlue = ForegroundColorSpan(Color.BLUE)
 
 // appliying color styles to substrings
 
-       // mSpannableString.setSpan(mBlue,49,73,Spanned.SPAN_INCLUSIVE_EXCLUSIVE)
+        mSpannableString.setSpan(mBlue,28,65,Spanned.SPAN_INCLUSIVE_EXCLUSIVE)
 
 //setting text to the textview
 
-      //  mText.text=mSpannableString
+        mText.text=mSpannableString
           }
 
 
